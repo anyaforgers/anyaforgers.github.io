@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday, Angel! 👑</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Montserrat:wght@400;600&family=Pacifico&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="floating-hearts" id="floatingHearts"></div>
+
+    <header>
+        <div class="header-content">
+            <h1>Happy Birthday, <span id="name">My Dear Friend </span>! 👑</h1>
+            <p class="subtitle">Today the world celebrates you</p>
+            <div class="heart">❤</div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="message">
+            <h2>My Dearest Friend,</h2>
+            <p>As the sun rises on your special day, I want you to know how incredibly grateful I am to have a friend
+                like you in my life. Your presence is like a melody that makes everyone heart dance, a light that
+                brightens even my darkest days.</p>
+            <p>You are more beautiful than the most perfect sunrise, kinder than anyone I've ever known, and your voice
+                is my favorite sound in the world. Every moment with you feels like a precious gift.</p>
+            <p>On this birthday, I wish for you all the happiness your heart can hold, dreams that take flight, and a
+                year filled with love and adventure. May you always see yourself the way I see you - absolutely perfect
+                in every way.</p>
+            <p class="wish">You deserve the world and more, today and every day</p>
+            <div class="signature">Best Frined,<br></div>
+        </div>
+
+        <div class="polaroid">
+            <img src="./photos/08.jpg" alt="Us">
+            <div class="polaroid-caption">My Best Friend</div>
+        </div>
+
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="./photos/09.jpg" alt="Memory 1">
+                <div class="gallery-caption"> First Interaction</div>
+            </div>
+            <div class="gallery-item">
+                <img src="./photos/14.jpg" alt="Memory 2">
+                <div class="gallery-caption">Birthday Special</div>
+            </div>
+            <div class="gallery-item">
+                <img src="./photos/08.jpg" alt="Memory 3">
+                <div class="gallery-caption"> Travelling</div>
+            </div>
+            <div class="gallery-item">
+                <img src="./photos/16.jpg" alt="Memory 4">
+                <div class="gallery-caption">In Suit</div>
+            </div>
+        </div>
+
+        <div class="memories-container">
+            <h2>Our Special Memories</h2>
+            <div class="memory">
+                <div class="memory-icon">
+                    <i class="fas fa-heart"></i>
+                </div>
+                <div class="memory-content">
+                    <h3>The Day We Met</h3>
+                    <p>I'll never forget the day when we met in a chess game. From that moment, I knew there was
+                        something special about you.</p>
+                </div>
+            </div>
+            <div class="memory">
+                <div class="memory-icon">
+                    <i class="fas fa-laugh-beam"></i>
+                </div>
+                <div class="memory-content">
+                    <h3>When You Tell Your Secret</h3>
+                    <p>Remember when you share your biggest secret with me, Thanks for trusting me and i will never
+                        disappont you </p>
+                </div>
+            </div>
+            <div class="memory">
+                <div class="memory-icon">
+                    <i class="fas fa-hand-holding-heart"></i>
+                </div>
+                <div class="memory-content">
+                    <h3>Your Thoughtful Gesture</h3>
+                    <p>When you put your ego aside and value me more than your ego that day you become my best friend.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="music-player">
+            <h2>Your Favourite Song</h2>
+            <p>This song always reminds me of you</p>
+            <div class="player-controls">
+                <button class="player-btn" id="prevBtn"><i class="fas fa-step-backward"></i></button>
+                <button class="player-btn play-pause" id="playBtn"><i class="fas fa-play"></i></button>
+                <button class="player-btn" id="nextBtn"><i class="fas fa-step-forward"></i></button>
+            </div>
+            <div class="song-info" id="songInfo">Not playing</div>
+            <audio id="audioPlayer" src="./music/mann mera.mp3"></audio>
+
+        </div>
+
+        <div class="countdown">
+            <h2>Countdown to Your Next Adventure</h2>
+            <div class="countdown-timer" id="countdown">
+                <div class="countdown-item">
+                    <div class="countdown-number" id="days">00</div>
+                    <div class="countdown-label">Days</div>
+                </div>
+                <div class="countdown-item">
+                    <div class="countdown-number" id="hours">00</div>
+                    <div class="countdown-label">Hours</div>
+                </div>
+                <div class="countdown-item">
+                    <div class="countdown-number" id="minutes">00</div>
+                    <div class="countdown-label">Minutes</div>
+                </div>
+                <div class="countdown-item">
+                    <div class="countdown-number" id="seconds">00</div>
+                    <div class="countdown-label">Seconds</div>
+                </div>
+            </div>
+        </div>
+
+        <button class="btn" id="surpriseBtn"><i class="fas fa-gift"></i> Click for Your Birthday Surprise!</button>
+
+        <div id="surprise" class="hidden">
+            <h2>🎁 Your Special Gift 🎁</h2>
+            <p>I've planned something amazing for you! We're Surely going to meet one day My Friend.</p>
+            <p>But more than anything, I want you to know that my greatest gift is the privilege of caring you my
+                friend. I promise to make this year the most memorable one yet!
+                And also promise you that I will make your birthday special every year.</p>
+            <p>Thank you for being the incredible person you are. I love you my friend more than words can express, and
+                I can't wait to celebrate many more birthdays with you.</p>
+            <p>Here's to you, my dear friend, on your special day! May this year bring you as much joy and happiness as
+                you have given to everyone around you.</p>
+            <p>Happy Birthday! May your day be filled with love, laughter, and all the things that make you smile. You
+                deserve nothing but the best, today and always.
+            </p>
+            <div class="heart">❤️ ❤️ ❤️</div>
+        </div>
+
+        <div style="text-align: center; margin-top: 50px;">
+            <button class="btn" id="confettiBtn"><i class="fas fa-birthday-cake"></i> Throw Confetti!</button>
+        </div>
+    </div>
+    <div style="text-align: right; margin-top: 50px;">
+        <button class="btn" id="collageBtn"><i class="fas fa-birthday-cake"></i> Show Collage</button>
+    </div>
+    </div>
+
+    </div>
+
+    <footer>
+        <p>Made with <i class="fas fa-heart" style="color: var(--primary);"></i>for My Best Friend Angel /Anya (Anushka)
+        </p>
+        <p>© <span id="year"></span> - Happy Birthday to the most amazing Friend in the world!</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
